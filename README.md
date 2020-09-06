@@ -1,3 +1,8 @@
 # PHPAcademyHomework2
+<br>
+<h3>Task1 Completed.</h3>
+<br>
+<h3>Task2 Completed.</h3>
+<br>
 
-<b>Task1 Completed.</b>
+Tasks completed using for loops.
