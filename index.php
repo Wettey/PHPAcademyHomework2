@@ -1,25 +1,20 @@
+<h1 style="text-align: center">Hello there!</h1>
+
+Task 1 <br>
 <?php
 
-$name = 'lobel';
-$alphabet = 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z';
+require 'task1.php';
 
-$arrAlphabet = explode(',', $alphabet);
-$arrName = str_split($name);
+?>
 
-$row = count($arrName);
-$reverseArrName = array_reverse($arrName);
+<br>
 
-for ($i = 0; $i < $row; $i++) {
-    foreach ($arrAlphabet as $byte) {
-        if ($byte === $arrName[$i] && $byte === $arrName[$i] && $byte === $reverseArrName[$i]) {
-            echo '<b><u>' . $byte . '</b></u>';
-        } elseif ($byte === $reverseArrName[$i]) {
-            echo '<u>' . $byte . '</u>';
-        } elseif ($byte === $arrName[$i]) {
-            echo '<b>' . $byte . '</b>';
-        } else {
-            echo $byte;
-        }
-    } echo '<br>';
-}
+Task2 <br>
+<?php
+
+require 'task2.php';
+
+?>
+
+
 
